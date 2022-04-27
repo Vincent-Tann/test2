@@ -30,10 +30,11 @@ int InitArm() {
  * @name	Glue
  * @brief	控制机械臂依次到达相应点
  * @param	points	动态涂胶采样点
+ * @param	dt	相邻两点间时间差
  * @return	
  * @note
  */
-int Glue(vector<Point> points){
+void Glue(vector<Point> points,double dt){
 
-	return 1;
+	return ;
 }

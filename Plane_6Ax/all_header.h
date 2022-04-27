@@ -17,4 +17,4 @@ vector<Point> SampleOnContour(vector<Point> contour);
 vector<Point> Transform(vector<Point> points_in_pic);
 vector<Point> Dynamicalize(vector<Point> points_s, double v, double dt);
 int InitArm();
-int Glue(vector<Point> points);
+void Glue(vector<Point> points, double dt);
